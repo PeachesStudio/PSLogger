@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = "PSLogger"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.4"
   spec.summary       = "Logging system for Peaches Studio Product."
   spec.homepage      = "https://github.com/PeachesStudio/PSLog/"
   spec.license       = 'MIT'
@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.platform      = :ios, '7.0'
   spec.source_files  = 'Classes/PSLogger.{h,m}'
   spec.requires_arc  = true
-  spec.dependency 'CocoaLumberjack'
+  spec.dependency 'CocoaLumberjack', '~> 1.9.0'
 end
