@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D3E1967FD1447FBB80F1A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DB948920F042AF977A625E /* libPods.a */; };
+		BE49E1C49422ED1038B1968D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49EA0E6D0C9BD5FC05EEE0 /* XCTest.framework */; };
+		BE49E46CCACC42D29840248D /* PSLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E0BEE5E1B2722F452738 /* PSLoggerTests.m */; };
+		BE49E59320F99C992743757D /* PSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E0416BEA2393006D9D3E /* PSLogger.m */; };
+		BE49E5D535965C0D54752E93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE49E6EC2B70161419BCA030 /* InfoPlist.strings */; };
+		BE49E5F2FD2BCC0755DB6335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E9C2A3D8765216BF5A30 /* main.m */; };
+		BE49E78AE97565787E0A1D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49EE9B8A3E06934F78F371 /* Foundation.framework */; };
+		BE49E9451008FC1CB02CF4E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE49E0F287C84AE0E169BF8B /* InfoPlist.strings */; };
+		BE49EA0D53E234C6D3EBC56B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E440A5605DB1B8300243 /* UIKit.framework */; };
+		BE49ED57359ACD2A1A0A0864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49EE9B8A3E06934F78F371 /* Foundation.framework */; };
+		BE49ED6F20069C188FFBBEDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE49E6CEAB198F69EE2B4EF4 /* Images.xcassets */; };
+		BE49EDE10B68AF305D5F53B0 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EAE913DE818FEA2A282D /* PSAppDelegate.m */; };
+		BE49EEEAD91E08C1C2850F73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49EBC7160B76E0D325CBEC /* CoreGraphics.framework */; };
+		BE49EF994ED795CE06D5FC19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E440A5605DB1B8300243 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE49E867D673E4ABD762685B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE49E6640DD8023E3812BCD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE49E6B6BEE0A782B8DA966C;
+			remoteInfo = PSLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AED166E4E0C4E55B2807169 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		42DB948920F042AF977A625E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE49E0416BEA2393006D9D3E /* PSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLogger.m; sourceTree = "<group>"; };
+		BE49E0BEE5E1B2722F452738 /* PSLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLoggerTests.m; sourceTree = "<group>"; };
+		BE49E1F52708D24418CB7E68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE49E2BFE46F3ADF5678FDE9 /* PSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogger.h; sourceTree = "<group>"; };
+		BE49E440A5605DB1B8300243 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE49E5140ADC3188DC137F0E /* PSLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "PSLogger-Info.plist"; sourceTree = "<group>"; };
+		BE49E691B7B0D37F5FB83A1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE49E6CEAB198F69EE2B4EF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE49E76662C7437793C90C80 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		BE49E9A2DB879F2A8A5EC61F /* PSLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "PSLoggerTests-Info.plist"; sourceTree = "<group>"; };
+		BE49E9C2A3D8765216BF5A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE49EA0E6D0C9BD5FC05EEE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE49EAD9D81AADAD56F097A2 /* PSLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE49EAE913DE818FEA2A282D /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		BE49EBC7160B76E0D325CBEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE49ED3A6199F580E8A5AD4F /* PSLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE49EE9B8A3E06934F78F371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE49EFDCFFEEA2C80F681DE3 /* PSLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSLogger-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE49E08D44B5671716774557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49E1C49422ED1038B1968D /* XCTest.framework in Frameworks */,
+				BE49E78AE97565787E0A1D16 /* Foundation.framework in Frameworks */,
+				BE49EA0D53E234C6D3EBC56B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE49EFEBF62C54AF9F891834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49ED57359ACD2A1A0A0864 /* Foundation.framework in Frameworks */,
+				BE49EEEAD91E08C1C2850F73 /* CoreGraphics.framework in Frameworks */,
+				BE49EF994ED795CE06D5FC19 /* UIKit.framework in Frameworks */,
+				78D3E1967FD1447FBB80F1A0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE49E08DF5373B75CA6B4F3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE49E9A2DB879F2A8A5EC61F /* PSLoggerTests-Info.plist */,
+				BE49E6EC2B70161419BCA030 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE49E46B18266A819C2B936E /* PSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				BE49ECE1D03B12A0183664FB /* Supporting Files */,
+				BE49E76662C7437793C90C80 /* PSAppDelegate.h */,
+				BE49EAE913DE818FEA2A282D /* PSAppDelegate.m */,
+				BE49E6CEAB198F69EE2B4EF4 /* Images.xcassets */,
+			);
+			path = PSLogger;
+			sourceTree = "<group>";
+		};
+		BE49E5DFD9D1176ACBFD5716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE49EE9B8A3E06934F78F371 /* Foundation.framework */,
+				BE49EBC7160B76E0D325CBEC /* CoreGraphics.framework */,
+				BE49E440A5605DB1B8300243 /* UIKit.framework */,
+				BE49EA0E6D0C9BD5FC05EEE0 /* XCTest.framework */,
+				42DB948920F042AF977A625E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE49E7525A79509C56896DAC = {
+			isa = PBXGroup;
+			children = (
+				BE49EE0C5C8DA6B855AF12DF /* Products */,
+				BE49E5DFD9D1176ACBFD5716 /* Frameworks */,
+				BE49E46B18266A819C2B936E /* PSLogger */,
+				BE49EE353FF35C1DD6C3491A /* PSLoggerTests */,
+				BE49E97370AD7945DCA989C6 /* Classes */,
+				0AED166E4E0C4E55B2807169 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BE49E97370AD7945DCA989C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE49E2BFE46F3ADF5678FDE9 /* PSLogger.h */,
+				BE49E0416BEA2393006D9D3E /* PSLogger.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BE49ECE1D03B12A0183664FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE49E5140ADC3188DC137F0E /* PSLogger-Info.plist */,
+				BE49E0F287C84AE0E169BF8B /* InfoPlist.strings */,
+				BE49E9C2A3D8765216BF5A30 /* main.m */,
+				BE49EFDCFFEEA2C80F681DE3 /* PSLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE49EE0C5C8DA6B855AF12DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE49EAD9D81AADAD56F097A2 /* PSLogger.app */,
+				BE49ED3A6199F580E8A5AD4F /* PSLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE49EE353FF35C1DD6C3491A /* PSLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE49E08DF5373B75CA6B4F3E /* Supporting Files */,
+				BE49E0BEE5E1B2722F452738 /* PSLoggerTests.m */,
+			);
+			path = PSLoggerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE49E6B6BEE0A782B8DA966C /* PSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE49ED967BA5DF461BC7FB08 /* Build configuration list for PBXNativeTarget "PSLogger" */;
+			buildPhases = (
+				62A9FA8758CD4F7A972C0CFB /* Check Pods Manifest.lock */,
+				BE49E523B92061438BDCCEA7 /* Sources */,
+				BE49EFEBF62C54AF9F891834 /* Frameworks */,
+				BE49E831E1338ED4F5961627 /* Resources */,
+				B2B98CA90D8A46FCB43F292D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSLogger;
+			productName = PSLogger;
+			productReference = BE49EAD9D81AADAD56F097A2 /* PSLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE49EEA6B95056F329EF6907 /* PSLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE49E32B58105FB458DC9E60 /* Build configuration list for PBXNativeTarget "PSLoggerTests" */;
+			buildPhases = (
+				BE49EB9516A3E177C0B7D975 /* Sources */,
+				BE49E08D44B5671716774557 /* Frameworks */,
+				BE49E5B05EA71707220BA06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE49E292CAD40004CF72198F /* PBXTargetDependency */,
+			);
+			name = PSLoggerTests;
+			productName = PSLoggerTests;
+			productReference = BE49ED3A6199F580E8A5AD4F /* PSLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE49E6640DD8023E3812BCD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = peaches.io;
+			};
+			buildConfigurationList = BE49EF5ADC8F6AD49A0FF6B3 /* Build configuration list for PBXProject "PSLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE49E7525A79509C56896DAC;
+			productRefGroup = BE49EE0C5C8DA6B855AF12DF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				BE49E6B6BEE0A782B8DA966C /* PSLogger */,
+				BE49EEA6B95056F329EF6907 /* PSLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE49E5B05EA71707220BA06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49E5D535965C0D54752E93 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE49E831E1338ED4F5961627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49E9451008FC1CB02CF4E4 /* InfoPlist.strings in Resources */,
+				BE49ED6F20069C188FFBBEDD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62A9FA8758CD4F7A972C0CFB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B98CA90D8A46FCB43F292D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE49E523B92061438BDCCEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49E5F2FD2BCC0755DB6335 /* main.m in Sources */,
+				BE49EDE10B68AF305D5F53B0 /* PSAppDelegate.m in Sources */,
+				BE49E59320F99C992743757D /* PSLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE49EB9516A3E177C0B7D975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49E46CCACC42D29840248D /* PSLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE49E292CAD40004CF72198F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE49E6B6BEE0A782B8DA966C /* PSLogger */;
+			targetProxy = BE49E867D673E4ABD762685B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE49E0F287C84AE0E169BF8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE49E691B7B0D37F5FB83A1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE49E6EC2B70161419BCA030 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE49E1F52708D24418CB7E68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE49E7374CFC3D53E1E1770E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSLogger/PSLogger-Prefix.pch";
+				INFOPLIST_FILE = "PSLoggerTests/PSLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		BE49E79B77F9832F96051FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AED166E4E0C4E55B2807169 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSLogger/PSLogger-Prefix.pch";
+				INFOPLIST_FILE = "PSLogger/PSLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE49E99BD3AA0798BCD0CCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE49EABA3D24D872ED5C814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSLogger/PSLogger-Prefix.pch";
+				INFOPLIST_FILE = "PSLoggerTests/PSLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE49EAD417255F8A2AD9CEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AED166E4E0C4E55B2807169 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSLogger/PSLogger-Prefix.pch";
+				INFOPLIST_FILE = "PSLogger/PSLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE49EBC948A32108E1D3C781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE49E32B58105FB458DC9E60 /* Build configuration list for PBXNativeTarget "PSLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE49EABA3D24D872ED5C814E /* Debug */,
+				BE49E7374CFC3D53E1E1770E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE49ED967BA5DF461BC7FB08 /* Build configuration list for PBXNativeTarget "PSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE49EAD417255F8A2AD9CEDA /* Debug */,
+				BE49E79B77F9832F96051FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE49EF5ADC8F6AD49A0FF6B3 /* Build configuration list for PBXProject "PSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE49E99BD3AA0798BCD0CCEA /* Debug */,
+				BE49EBC948A32108E1D3C781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE49E6640DD8023E3812BCD6 /* Project object */;
+}
